@@ -15,4 +15,6 @@
         $result= round($size,$totalDigit).$ditance.$unit;
         return $result;
     }
+    //Để sử dụng ta dùng thêm hàm filesize
+    // $size=converSize(filesize("./đường dẫn đến file"));
 ?>
